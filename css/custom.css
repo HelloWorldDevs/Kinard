@@ -10,6 +10,11 @@ body {
     color:#585A56;
     font-size:18px;
 }
+.device-md #primary-menu ul li > a, .device-sm #primary-menu ul li > a, .device-xs #primary-menu ul li > a, .device-xxs #primary-menu ul li > a {
+    font-size:17px;
+    padding-left:11px;
+    padding-right:11px;
+}
 #primary-menu > ul:nth-child(1) > li:nth-child(1) > a {
     color:#FF782A;
     font-weight:700;
@@ -22,4 +27,9 @@ body {
 #primary-menu > ul:nth-child(1) > li:nth-child(3) > a {
     color:#5F09AC;
     font-weight:700;
+}
+
+.fa-info-circle {
+    font-size:22px;
+    color:#6E7479;
 }
