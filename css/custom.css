@@ -8,6 +8,9 @@ h2 {
     font-size:60px;
     color:#1AA1B2;
 }
+.device-xxs section h2 {
+    line-height:65px !important;
+}
 h4 {
     font-size:24px;
     color:#1AA1B2;
@@ -349,29 +352,39 @@ p {
 }
 
 /*** MEET THE TEAM SECTION ***/
-.meet-the-team p {
+.meet-the-doctors p {
     color:#3A3937;
-    line-height:22px !important;
+    line-height:25px !important;
 }
-.meet-the-team {
+.meet-the-doctors {
     background:url("../images/fabric-plaid-bkgd.png");
+    padding-bottom:30px;
 }
-.meet-the-team h4 {
+.meet-the-doctors h4 {
     margin-top:20px;
 }
-.meet-the-team .team-photo {
+.meet-the-doctors .team-photo {
     max-width:270px;
 }
-.meet-the-team .row {
+.meet-the-doctors .row {
     display:flex;
     justify-content:center;
 }
-.meet-the-team .portfolio-image img, .meet-the-team .portfolio-overlay  {
+.meet-the-doctors .portfolio-image img, .meet-the-doctors .portfolio-overlay  {
     border-radius:12px;
 }
-.meet-the-team .plus {
+.meet-the-doctors .plus {
     color:#FFF;
     top:33%;
     position:relative;
     font-size:80px;
+}
+.device-xs .meet-the-doctors .row, .device-xxs .meet-the-doctors .row {
+    display:inherit;
+}
+.device-xs .meet-the-doctors .team-photo, .device-xxs .meet-the-doctors .team-photo {
+    max-width:100%;
+}
+.device-xxs .meet-the-doctors h2 {
+    margin-bottom:20px !important;
 }
