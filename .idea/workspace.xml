@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3fd7282d-bfb0-49b4-a7be-24c36fa50733" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,8 +95,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="423" column="19" selection-start-line="423" selection-start-column="19" selection-end-line="423" selection-end-column="19" />
+            <state relative-caret-position="196">
+              <caret line="401" column="21" selection-start-line="401" selection-start-column="21" selection-end-line="401" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -293,12 +292,12 @@
       <updated>1476241509244</updated>
       <workItem from="1476241510458" duration="21216000" />
       <workItem from="1476295253445" duration="22000" />
-      <workItem from="1476297978770" duration="1046000" />
+      <workItem from="1476297978770" duration="1271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22284000" />
+    <option name="totallyTimeSpent" value="22509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="210" y="44" width="1017" height="873" extended-state="0" />
@@ -557,8 +556,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="423" column="19" selection-start-line="423" selection-start-column="19" selection-end-line="423" selection-end-column="19" />
+        <state relative-caret-position="196">
+          <caret line="401" column="21" selection-start-line="401" selection-start-column="21" selection-end-line="401" selection-end-column="21" />
           <folding />
         </state>
       </provider>
