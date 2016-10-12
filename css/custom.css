@@ -429,7 +429,7 @@ section p {
 }
 .specials-row p {
     color:#555;
-    line-height:25px !important;
+    line-height:22px !important;
     margin-top:20px;
     margin-bottom:10px;
 }
@@ -440,13 +440,48 @@ section p {
 
 .specials-top::after {
     content: '';
-    position:;
+    position:absolute;
     width: 0;
     height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 20px solid #e8e8e8;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    left:43.5%;
+    top:29.5%;
 }
+
+
+.specials-top.specials-1.specials-1::after {
+    border-top: 25px solid #5F09AC;
+}
+
+.specials-top.specials-2.specials-2::after {
+    border-top: 25px solid #C80593;
+}
+
+.specials-top.specials-3.specials-3::after {
+    border-top: 25px solid #B5D11A;
+}
+.device-md .specials-top::after {
+    border-left-width:20px;
+    border-right-width:20px;
+    border-top-width:20px !important;
+}
+
+.device-sm .specials-top::after {
+    top:30.5%;
+}
+.specials-top.specials-1.specials-1::after {
+    top:32.5%;
+}
+.device-xs .specials-top.specials-3.specials-3::after, .specials-top.specials-2.specials-2::after {
+    top:30.5%;
+}
+.device-xxs .specials-top.specials-3.specials-3::after {
+    top:30.5%;
+}
+
+
+
 
 .specials-save {
     font-size:18px;
@@ -500,11 +535,6 @@ span.specials-save {
     position:relative;
 }
 
-@media (max-width:1199px) {
-    .specials-row p {
-        margin-top:10px;
-    }
-}
 @media (max-width:991px) {
     .specials-row {
         display:inherit;
