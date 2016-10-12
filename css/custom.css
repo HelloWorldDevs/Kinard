@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+/******* NAVBAR ********/
 #logo img {
     padding-top:5px;
     padding-bottom:10px;
@@ -17,6 +18,8 @@ body {
 .device-xxs #header, .device-xxs #header-wrap {
     height:60px;
 }
+
+
 .device-md #primary-menu .navbar li > a, .device-sm #primary-menu .navbar li > a, .device-xs #primary-menu .navbar li > a, .device-xxs #primary-menu .navbar li > a {
     font-size:17px;
     padding-left:11px;
@@ -66,4 +69,13 @@ body {
 }
 .device-xxs #side-panel-trigger {
     margin-right:-5%;
+}
+
+/********* TOP SLIDER *******/
+#slide-1 img {
+    width:22.7%;
+    height:22.7%;
+}
+#slide-1 {
+    background-position-y:0;
 }
