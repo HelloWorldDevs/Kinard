@@ -144,7 +144,55 @@ p {
     margin-bottom:10px;
 }
 #slide-3 .slider-caption {
+    margin-top:-30px;
+}
+.device-sm #slide-2 h2 {
+    font-size:40px;
+    margin-bottom:15px;
+}
+.device-sm #slide-2 p {
+    font-size:24px;
+    margin-bottom:10px;
+}
+.device-sm #slide-2 .slide-quote {
+    font-size:20px;
+}
+.device-sm #slide-2 .slider-caption {
+    margin-top:-100px;
+}
+.device-md #slide-3 .slider-caption {
+    padding-left:20px;
+}
+.device-sm #slide-3 .slider-caption {
+    margin-top:-120px;
+}
+.device-sm #slide-1 .slider-caption {
+    margin-top:-100px;
+    margin-left:-130px;
+}
+.device-sm #slide-1 img {
+    width:15%;
+    height:15%;
+}
+.device-md #slide-1 .slider-caption {
+    margin-left:-85px;
+}
+.device-sm #slide-3 h1, .device-sm #slide-1 h1 {
+    font-size:48px;
+    margin-bottom:20px;
+}
+.device-sm .smile-text {
+    font-size:110px;
+}
+.device-sm .slide-2 .slider-caption {
+    margin-left:-20px;
 }
 #slide-3 p {
     font-size:28px;
+}
+#slide-2 .button {
+    margin-left:0;
+}
+.device-lg #slide-1 .slider-caption {
+    margin-left:-100px;
 }
