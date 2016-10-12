@@ -228,7 +228,7 @@ p {
     font-size:24px;
     font-weight:700;
 }
-.side-panel-wrap .phone a:hover {
+.phone a:hover {
     text-decoration:none;
 }
 .side-panel-wrap .phone {
@@ -257,4 +257,56 @@ p {
 
 .side-panel-wrap .social-icon {
     margin-right:20px;
+}
+
+/**** PHONE SLUG 1 *****/
+
+#page-title .col-1 .phone a {
+    font-size:32px;
+    color:#1AA1B2;
+    font-weight:700;
+}
+#page-title .col-2 .phone a {
+    font-size:24px;
+    color:#1AA1B2;
+    font-weight:700;
+}
+.device-md #page-title .col-1 .phone a {
+    font-size:24px;
+}
+.device-md #page-title .col-2 .phone a {
+    font-size:20px;
+}
+.device-md #page-title .container {
+    width:100%;
+}
+#page-title .text {
+    font-size:18px;
+}
+#page-title {
+    background:#FFF;
+}
+#page-title .button {
+    padding-left:60px;
+    padding-right:60px;
+}
+#page-title .row {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+@media (max-width:1100px) {
+    #page-title .text {
+        font-size:16px;
+    }
+    #page-title .button {
+        padding-left:35px;
+        padding-right:35px;
+    }
+}
+.device-sm #page-title .col-1 {
+    text-align:center !important;
+}
+.device-sm #page-title .col-1 .phone a, .device-sm #page-title .col-2 .phone a {
+    font-size:20px;
 }

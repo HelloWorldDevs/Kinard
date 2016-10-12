@@ -3294,8 +3294,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 #page-title {
 	position: relative;
 	padding: 50px 0;
-	background-color: #F5F5F5;
-	border-bottom: 1px solid #EEE;
+	background-color: #FFF;
 }
 
 #page-title .container { position: relative; }
@@ -3311,13 +3310,6 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	text-transform: uppercase;
 }
 
-#page-title span {
-	display: block;
-	margin-top: 10px;
-	font-weight: 300;
-	color: #777;
-	font-size: 18px;
-}
 
 .breadcrumb {
 	position: absolute !important;
