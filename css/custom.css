@@ -631,6 +631,7 @@ span.specials-save {
 /** OFFICE TOUR **/
 #office-tour {
     padding:50px 0;
+    background:url('../images/fabric-plaid-bkgd.png');
 }
 #office-tour h3 {
     font-family: 'Dancing Script', cursive;
