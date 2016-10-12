@@ -550,5 +550,47 @@ span.specials-save {
     }
 }
 
+.section-specials .phone a {
+    font-size:32px;
+    font-weight:700;
+    color:#1AA1B2;
+    top:4px;
+    position:relative;
+}
+
+.section-specials .phone-text {
+    font-size:18px;
+    position:relative;
+    color: #585A56;
+}
+.section-specials .button {
+    padding-left:65px;
+    padding-right:65px;
+}
+.device-xs .section-specials .col-sm-6, .device-xxs .section-specials .col-sm-6 {
+    text-align:center !important;
+}
+.device-xs .section-specials .col-sm-6.tright, .device-xxs .section-specials .col-sm-6.tright {
+    margin-bottom:15px;
+}
+.device-xxs .section-specials .phone > a {
+    line-height:25px;
+}
 
 /** END SPECIALS **/
+
+/** PATIENT REVIEWS **/
+
+.bf-spn {
+    color:#FFF;
+    font-size:16px !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.80);
+}
+.bf-pro {
+    color:#FFF !important;
+    font-size:16px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.80);
+}
+.bf-pro:hover {
+    text-decoration:underline !important;
+}
