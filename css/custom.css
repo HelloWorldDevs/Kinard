@@ -682,10 +682,9 @@ span.specials-save {
     font-size:28px;
     font-weight:700;
     color:#A0CC50;
-    margin-right:30px;
     margin-bottom:10px;
 }
-#services .read-more a {
+#services .read-more {
     float:right;
     text-decoration:underline;
     color:#1AA1B2;
@@ -694,6 +693,8 @@ span.specials-save {
 }
 .service-card {
     padding-right:70px;
+    height:175px;
+    margin-bottom:30px;
 }
 .long-text {
     margin-bottom:10px;
@@ -721,3 +722,40 @@ span.specials-save {
      margin-left: -15px;
      z-index: 11;
 }
+
+.device-md .service-card {
+    padding-right:30px;
+}
+.device-md .no-long-text {
+    margin-top:-20px;
+}
+.device-md #services h4 {
+    font-size:26px;
+}
+.device-md #services p {
+    font-size:17px;
+}
+.device-sm #services .row, .device-xs #services .row, .device-xxs #services .row {
+    margin-bottom:0;
+}
+.device-xs .text-wrap > p:nth-child(2), .device-xxs .text-wrap > p:nth-child(2) {
+    display:none;
+}
+.device-xs .round-img-wrap, .device-xxs .round-img-wrap {
+    float:none;
+    margin-bottom:10px;
+    margin-right:0;
+}
+.device-xs .service-card, .device-xxs .service-card {
+    text-align:center;
+    padding-right:0;
+    height:225px;
+}
+.device-xs #services .read-more, .device-xxs #services .read-more {
+    float:none;
+}
+.device-xs #services h4, .device-xxs #services h4 {
+    margin-bottom:0;
+}
+
+
