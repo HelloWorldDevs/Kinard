@@ -660,6 +660,9 @@ span.specials-save {
 #services {
     padding:50px 0;
 }
+#services .row {
+    margin-bottom:50px;
+}
 .round-img-wrap {
     display:inline-block;
     float:left;
@@ -676,7 +679,7 @@ span.specials-save {
     line-height:25px;
 }
 #services h4 {
-    font-size:30px;
+    font-size:28px;
     font-weight:700;
     color:#A0CC50;
     margin-right:30px;
