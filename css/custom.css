@@ -261,52 +261,77 @@ p {
 
 /**** PHONE SLUG 1 *****/
 
-#page-title .col-1 .phone a {
+#phone-slug-1 .col-1 .phone a {
     font-size:32px;
     color:#1AA1B2;
     font-weight:700;
 }
-#page-title .col-2 .phone a {
+#phone-slug-1 .col-2 .phone a {
     font-size:24px;
     color:#1AA1B2;
     font-weight:700;
 }
-.device-md #page-title .col-1 .phone a {
+.device-md #phone-slug-1 .col-1 .phone a {
     font-size:24px;
 }
-.device-md #page-title .col-2 .phone a {
+.device-md #phone-slug-1 .col-2 .phone a {
     font-size:20px;
 }
-.device-md #page-title .container {
+.device-md #phone-slug-1 .container {
     width:100%;
 }
-#page-title .text {
+#phone-slug-1 .text {
     font-size:18px;
 }
-#page-title {
+#phone-slug-1 {
     background:#FFF;
 }
-#page-title .button {
+#phone-slug-1 .button {
     padding-left:60px;
     padding-right:60px;
 }
-#page-title .row {
+#phone-slug-1 .row {
     display:flex;
     align-items:center;
     justify-content:space-between;
 }
 @media (max-width:1100px) {
-    #page-title .text {
+    #phone-slug-1 .text {
         font-size:16px;
     }
-    #page-title .button {
+    #phone-slug-1 .button {
         padding-left:35px;
         padding-right:35px;
     }
 }
-.device-sm #page-title .col-1 {
+.device-sm #phone-slug-1 .col-1 {
     text-align:center !important;
 }
-.device-sm #page-title .col-1 .phone a, .device-sm #page-title .col-2 .phone a {
+.device-sm #phone-slug-1 .col-1 .phone a, .device-sm #phone-slug-1 .col-2 .phone a {
     font-size:20px;
+}
+
+.phone-slug-mobile .button {
+    padding-left:45px;
+    padding-right:45px;
+    margin-bottom:15px;
+}
+.phone-slug-mobile p {
+    margin-bottom:0;
+    line-height:30px !important;
+}
+.phone-slug-mobile .phone-1 {
+    font-size:36px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+.phone-slug-mobile .phone-2 {
+    font-size:28px;
+    font-weight:700;
+}
+.phone-slug-mobile {
+    padding:30px;
+}
+.device-xxs .phone-slug-mobile .button {
+    width:100%;
 }
