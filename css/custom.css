@@ -5,7 +5,12 @@ h1 {
     font-size:52.49px;
 }
 h2 {
-    font-size:55px;
+    font-size:60px;
+    color:#1AA1B2;
+}
+h4 {
+    font-size:24px;
+    color:#1AA1B2;
 }
 h5 {
     font-size:21px;
@@ -341,4 +346,32 @@ p {
 }
 .device-xxs .phone-slug-mobile .button {
     width:100%;
+}
+
+/*** MEET THE TEAM SECTION ***/
+.meet-the-team p {
+    color:#3A3937;
+    line-height:22px !important;
+}
+.meet-the-team {
+    background:url("../images/fabric-plaid-bkgd.png");
+}
+.meet-the-team h4 {
+    margin-top:20px;
+}
+.meet-the-team .team-photo {
+    max-width:270px;
+}
+.meet-the-team .row {
+    display:flex;
+    justify-content:center;
+}
+.meet-the-team .portfolio-image img, .meet-the-team .portfolio-overlay  {
+    border-radius:12px;
+}
+.meet-the-team .plus {
+    color:#FFF;
+    top:33%;
+    position:relative;
+    font-size:80px;
 }
