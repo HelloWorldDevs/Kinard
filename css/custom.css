@@ -1,6 +1,12 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
 }
+h1 {
+    font-size:52.49px;
+}
+.dancing-script {
+    font-family: 'Dancing Script', cursive;
+}
 
 /******* NAVBAR ********/
 #logo img {
@@ -78,4 +84,17 @@ body {
 }
 #slide-1 {
     background-position-y:0;
+}
+#slide-1 h1 {
+    color:#585A56;
+    font-family: 'Dancing Script', cursive;
+    font-weight:400;
+    line-height:90px;
+}
+.smile-text {
+    font-size:140.94px;
+    color:#1AA1B2;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:700;
+    letter-spacing: -1.75px;
 }
