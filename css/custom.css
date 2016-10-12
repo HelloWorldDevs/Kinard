@@ -1,4 +1,25 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 #logo img {
     padding-top:5px;
     padding-bottom:10px;
+}
+#primary-menu ul li > a {
+    color:#585A56;
+    font-size:18px;
+}
+#primary-menu > ul:nth-child(1) > li:nth-child(1) > a {
+    color:#FF782A;
+    font-weight:700;
+}
+#primary-menu > ul:nth-child(1) > li:nth-child(2) > a {
+    color:#306A90;
+    font-weight:700;
+}
+
+#primary-menu > ul:nth-child(1) > li:nth-child(3) > a {
+    color:#5F09AC;
+    font-weight:700;
 }
