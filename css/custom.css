@@ -6,9 +6,16 @@ body {
     padding-top:5px;
     padding-bottom:10px;
 }
+.device-xxs #logo img {
+    padding-bottom:41px;
+    padding-top:1px;
+}
 #primary-menu ul li > a {
     color:#585A56;
     font-size:18px;
+}
+.device-xxs #header, .device-xxs #header-wrap {
+    height:60px;
 }
 .device-md #primary-menu .navbar li > a, .device-sm #primary-menu .navbar li > a, .device-xs #primary-menu .navbar li > a, .device-xxs #primary-menu .navbar li > a {
     font-size:17px;
@@ -30,9 +37,33 @@ body {
 }
 
 .fa-info-circle {
-    font-size:22px;
+
     color:#6E7479;
 }
-.fa-bars {
-    font-size: 22px;
-}#primary-menu > ul.mobile-primary-menu.sf-js-enabled.show > li:nth-child(1) > a
+#primary-menu-trigger {
+    font-size:22px;
+}
+#side-panel-trigger {
+    width:22px;
+    height:22px;
+    right:15px;
+}
+.device-xxs #side-panel-trigger {
+    margin:19px 0;
+}
+.device-xxs #primary-menu-trigger {
+    top:5px;
+    bottom:5px;
+}
+.fa-info-circle {
+    font-size:22px;
+    top:-2px;
+    position:relative;
+}
+
+.device-xxs #primary-menu-trigger {
+    margin-left:-5%;
+}
+.device-xxs #side-panel-trigger {
+    margin-right:-5%;
+}
