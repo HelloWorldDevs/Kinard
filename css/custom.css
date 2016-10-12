@@ -258,6 +258,10 @@ p {
 .side-panel-wrap .social-icon {
     margin-right:20px;
 }
+#side-panel > div.side-panel-wrap > div:nth-child(1) > a:hover {
+    text-decoration:underline;
+    color:#FFF;
+}
 
 /**** PHONE SLUG 1 *****/
 
@@ -320,14 +324,17 @@ p {
     margin-bottom:0;
     line-height:30px !important;
 }
-.phone-slug-mobile .phone-1 {
+.phone-slug-mobile .phone-1 a {
     font-size:36px;
     font-weight:700;
     margin-bottom:15px;
 }
-.phone-slug-mobile .phone-2 {
+.phone-slug-mobile .phone-2 a {
     font-size:28px;
     font-weight:700;
+}
+.phone-slug-mobile .phone a {
+    color:#1AA1B2;
 }
 .phone-slug-mobile {
     padding:30px;
