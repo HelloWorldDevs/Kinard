@@ -321,12 +321,31 @@ section p {
         padding-left:35px;
         padding-right:35px;
     }
+    .phone-text-1 {
+        position:relative;
+        top:-2px;
+    }
+    .phone-text-2 {
+        position:relative;
+        top:-1px;
+    }
+}
+.device-sm #slider {
+    min-height:400px;
 }
 .device-sm #phone-slug-1 .col-1 {
     text-align:center !important;
 }
 .device-sm #phone-slug-1 .col-1 .phone a, .device-sm #phone-slug-1 .col-2 .phone a {
     font-size:20px;
+}
+.device-lg .phone-text-1, .device-md .phone-text-2 {
+    top:-4px;
+    position:relative;
+}
+.device-lg .phone-text-2, .device-md .phone-text-2 {
+    position:relative;
+    top:-2px;
 }
 
 .phone-slug-mobile .button {
