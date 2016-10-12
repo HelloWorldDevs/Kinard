@@ -7,7 +7,14 @@ h1 {
 h2 {
     font-size:55px;
 }
+h5 {
+    font-size:21px;
+}
+h6 {
+    font-size:18px;
+}
 p {
+    font-size:18px;
     color:#585A56
 }
 .dancing-script {
@@ -195,4 +202,59 @@ p {
 }
 .device-lg #slide-1 .slider-caption {
     margin-left:-100px;
+}
+/**** SIDEBAR ****/
+
+.side-panel-wrap {
+    background:#585A56;
+}
+.side-panel-wrap h5 {
+    color:#B5D11A;
+    font-weight:400;
+}
+.side-panel-wrap h6 {
+    color:#FFF;
+    font-weight:700;
+    margin-bottom:0
+}
+.side-panel-wrap p {
+    color:#FFF;
+    margin-bottom:0;
+    font-size:18px;
+    line-height:22px;
+}
+.side-panel-wrap .phone a {
+    color:#FFF;
+    font-size:24px;
+    font-weight:700;
+}
+.side-panel-wrap .phone a:hover {
+    text-decoration:none;
+}
+.side-panel-wrap .phone {
+    margin-bottom:30px;
+}
+.side-panel-wrap hr {
+    color:#979797;
+}
+.side-panel-wrap .si-gplus, .side-panel-wrap .si-facebook, .side-panel-wrap .si-yelp {
+    width:32px;
+    height:32px;
+}
+.si-angie {
+    border:none;
+    top:5px;
+    position:relative;
+}
+.side-panel-wrap .icon-facebook:before, .side-panel-wrap .icon-gplus:before, .side-panel-wrap .icon-yelp:before {
+    position:relative;
+    top:-5px;
+}
+.side-panel-wrap .si-colored {
+    position:relative;
+    top:10px;
+}
+
+.side-panel-wrap .social-icon {
+    margin-right:20px;
 }

@@ -11947,9 +11947,6 @@ button.toast-close-button {
 	text-transform: uppercase;
 }
 
-.sidebar-widgets-wrap .widget > h4 { letter-spacing: 1px; }
-
-.widget p:not(.lead) { font-size: 14px; }
 
 
 /* Tag Cloud
