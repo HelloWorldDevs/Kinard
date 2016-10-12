@@ -12,6 +12,9 @@ h2 {
     line-height:65px !important;
     font-size:54px;
 }
+h3 {
+    font-size:48px;
+}
 h4 {
     font-size:24px;
     color:#1AA1B2;
@@ -612,4 +615,43 @@ span.specials-save {
 }
 .bf-pro:hover {
     text-decoration:underline !important;
+}
+#patient-reviews {
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    padding-top:60px;
+    padding-bottom:50px;
+}
+#patient-reviews h2 {
+    color:#FFF;
+    text-shadow: 0px 2px 8px rgba(0,0,0,0.50);
+}
+
+/** OFFICE TOUR **/
+#office-tour {
+    padding:50px 0;
+}
+#office-tour h3 {
+    font-family: 'Dancing Script', cursive;
+    color:#585A56;
+    font-weight:300;
+    margin-bottom:10px;
+}
+#office-tour p {
+    color:#585A56;
+    line-height:25px;
+}
+#office-tour h2 {
+    margin-bottom:0;
+}
+.device-lg .col-md-5, .device-md .col-md-5 {
+    margin-top:80px;
+}
+.device-xxs .button {
+    margin-left:0;
+    margin-right:0;
+}
+.device-xxs h3 {
+    font-size:32px;
 }
