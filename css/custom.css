@@ -7,6 +7,9 @@ h1 {
 h2 {
     font-size:55px;
 }
+p {
+    color:#585A56
+}
 .dancing-script {
     font-family: 'Dancing Script', cursive;
 }
@@ -100,7 +103,7 @@ h2 {
     width:22.7%;
     height:22.7%;
 }
-#slide-1 h1 {
+#slide-1 h1, #slide-3 h1 {
     color:#585A56;
     font-family: 'Dancing Script', cursive;
     font-weight:400;
@@ -128,7 +131,6 @@ h2 {
     font-size:34px;
 }
 #slide-2 p {
-    color:#585A56;
     font-size:30px;
     font-family: 'Dancing Script', cursive;
     line-height:30px;
@@ -140,4 +142,9 @@ h2 {
 }
 .star-set {
     margin-bottom:10px;
+}
+#slide-3 .slider-caption {
+}
+#slide-3 p {
+    font-size:28px;
 }
