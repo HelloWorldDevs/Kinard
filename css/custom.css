@@ -863,6 +863,36 @@ sup {
 #contact .city {
     margin-bottom:20px;
 }
-#contact .map-link {
+#contact .map-link a {
     color:#1AA1B2;
+}
+#contact .map-link {
+    margin-bottom:20px;
+}
+#contact .text-phone a {
+    font-size:36px;
+    color:#1AA1B2;
+    font-weight:700;
+}
+#contact .text-phone-2 a {
+    font-size:28px;
+    font-weight:700;
+    color:#1AA1B2;
+}
+#contact .contact-p {
+    margin-bottom:5px;
+}
+#contact .text-phone, #contact .text-phone-2 {
+    margin-bottom:15px;
+}
+#contact .text-phone a:hover {
+    text-decoration:none;
+}
+#contact .button {
+    padding-left:45px;
+    padding-right:45px;
+    margin-bottom:20px;
+}
+#contact-form-overlay-mini {
+    border-radius:12px;
 }
