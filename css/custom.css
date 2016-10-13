@@ -841,3 +841,28 @@ sup {
 .device-xxs #patient-forms .button {
     margin-bottom:15px;
 }
+
+/** CONTACT **/
+
+#contact .img-wrap.center > a > img{
+    max-width:197px;
+    margin-bottom:10px;
+}
+#contact h5 {
+    font-size:21px;
+    color:#1AA1B2;
+    margin-bottom:0;
+    font-weight:700;
+    line-height:25px;
+}
+#contact p {
+    color:#6E7479;
+    margin-bottom:0;
+    line-height:25px;
+}
+#contact .city {
+    margin-bottom:20px;
+}
+#contact .map-link {
+    color:#1AA1B2;
+}
