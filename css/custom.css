@@ -1096,3 +1096,6 @@ h4.modal-title {
 .service-card:hover {
     cursor:pointer;
 }
+.privacy-link, .privacy-link:hover {
+    color:#585A56;
+}
