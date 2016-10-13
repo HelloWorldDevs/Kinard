@@ -240,7 +240,7 @@
                             <div class="text"><span class="phone-text-2">Existing Patients of our practice call: </span><span class="phone"><a href="tel:+12106951200">(210)&nbsp;695&#8209;1200</a></span></div>
                         </div>
                         <div class="tright col-3">
-                            <div><a class="button">Request Appointment</a></div>
+                            <div><a class="button" data-toggle="modal" data-target="#contact-modal">Request Appointment</a></div>
                         </div>
                     </div>
                 </div>
@@ -699,9 +699,65 @@
 
 </footer><!-- #footer end -->
 
-<!-- Go To Top
+
+
+<!-- Contact Modal
 ============================================= -->
-<div id="gotoTop" class="icon-angle-up"></div>
+
+
+<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true">×</span></button>
+            <h4 class="modal-title">Request an Appointment</h4>
+        </div>
+        <div class="modal-body">
+            <div class="form-error"></div>
+            <form id="mail-form" method="post" action="//web-api.tysonsteele.com/v1/webprops/KEY/schedule">
+                <h5>YES! Please contact me to schedule an appointment or answer any questions I&nbsp;might&nbsp;still&nbsp;have:</h5>
+                <div class="row appointment_input_row form-group">
+                    <div class="col-xs-4">
+                        <label for="name">Name:</label>
+                    </div>
+                    <div class="col-xs-8">
+                        <input type="text" name="name" id="name" class="form-control appointment_form">
+                    </div>
+                </div>
+                <div class="row appointment_input_row form-group">
+                    <div class="col-xs-4">
+                        <label for="confirmed_email">Email:</label>
+                    </div>
+                    <div class="col-xs-8">
+                        <input type="email" name="confirmed_email" id="confirmed_email"
+                               class="form-control appointment_form">
+                    </div>
+                </div>
+                <div class="row appointment_input_row form-group">
+                    <div class="col-xs-4">
+                        <label for="phone">Phone:</label>
+                    </div>
+                    <div class="col-xs-8">
+                        <input type="text" name="phone" id="phone" class="form-control appointment_form">
+                    </div>
+                </div>
+                <button type="submit" class="btn button custom-btn">Request Appointment</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- JS Templates
+		====================== -->
+<script type="text/template" id="success_msg">
+    <p>Congratulations! Dentistry is a big part of a healthy life, and we're excited to be a part of yours. We will
+        contact you in the next 2 business days to schedule your appointment and to answer any questions you may still
+        have.
+        Thank you!</p>
+    </script>
+
 
 <!-- External JavaScripts
 ============================================= -->
