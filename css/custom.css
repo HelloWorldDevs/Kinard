@@ -1099,3 +1099,6 @@ h4.modal-title {
 .privacy-link, .privacy-link:hover {
     color:#585A56;
 }
+.col-xs-6 {
+    padding:0;
+}
