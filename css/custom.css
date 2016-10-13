@@ -987,7 +987,7 @@ sup {
     margin-top:33px !important;
 }
 
-/** CONTACT MODAL **/
+/** MODALS **/
 .form-error {
     color: #D56724;
     margin: 0 0 20px 0;
@@ -1023,4 +1023,20 @@ h4.modal-title {
 #contact-modal .modal-dialog {
     background:#FFF;
     border-radius:5px;
+}
+.team__modal-pic .img-wrap {
+    text-align:center;
+    margin-bottom:15px;
+}
+.team__modal-pic .img-wrap > img {
+    max-width:50%;
+}
+.device-xs .team__modal-pic .img-wrap, .device-xxs.team__modal-pic .img-wrap {
+    display:none;
+}
+.team-photo:hover {
+    cursor:pointer;
+}
+.device-xs .modal-body.team__modal-pic > p, .device-xxs .modal-body.team__modal-pic > p  {
+    font-size:16px;
 }
