@@ -475,7 +475,7 @@ section p {
     top:31.5%;
 }
 .device-xxs .specials-top.specials-1.specials-1::after {
-    top:32.5%;
+    top:32%;
 }
 
 .specials-top.specials-2.specials-2::after {
@@ -1155,4 +1155,7 @@ a.widget-address:hover {
     #services h2 {
         font-size:42px;
     }
+}
+.device-xxs .service-modal h4 {
+    font-size:24px;
 }
