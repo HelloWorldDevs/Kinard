@@ -622,9 +622,6 @@ span.specials-save {
     text-decoration:underline !important;
 }
 #patient-reviews {
-    background-size:cover;
-    background-position:center center;
-    background-repeat:no-repeat;
     padding-top:60px;
     padding-bottom:50px;
 }
