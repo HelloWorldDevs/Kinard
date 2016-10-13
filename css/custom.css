@@ -1062,3 +1062,37 @@ h4.modal-title {
 .owl-carousel.with-carousel-dots .owl-nav [class*=owl-]:hover {
     background:#6B08A1 !important;
 }
+.service-modal .modal-body, .service-modal .modal-header {
+    background:#FFF;
+}
+.service-modal .modal-body {
+    border-radius:12px;
+}
+.service-modal h4 {
+    color:#A0CC50;
+    font-size:30px;
+    font-weight:700;
+}
+.service-modal .modal-body {
+    padding:20px;
+    margin:30px;
+}
+
+.service-modal img {
+    border-radius:9999px;
+    max-width:129px;
+}
+.service-modal .img-wrap {
+    display:inline-block;
+    float:left;
+    margin-right:30px;
+}
+.service-modal-text {
+    padding-left:159px;
+}
+.device-xs .service-modal-text, .device-xxs .service-modal-text {
+    padding:0;
+}
+.service-card:hover {
+    cursor:pointer;
+}
