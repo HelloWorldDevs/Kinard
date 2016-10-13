@@ -622,6 +622,9 @@ span.specials-save {
     color:#FFF;
     text-shadow: 0px 2px 8px rgba(0,0,0,0.50);
 }
+.device-xxs #patient-reviews h2 {
+    font-size:44px;
+}
 
 /** OFFICE TOUR **/
 #office-tour {
@@ -1039,4 +1042,23 @@ h4.modal-title {
 }
 .device-xs .modal-body.team__modal-pic > p, .device-xxs .modal-body.team__modal-pic > p  {
     font-size:16px;
+}
+.owl-dots {
+    display:none;
+}
+.owl-carousel .owl-nav [class*=owl-] {
+    opacity:1 !important;
+}
+.owl-prev {
+    left:-18px;
+}
+.owl-next {
+    right:-18px;
+}
+.owl-carousel.with-carousel-dots .owl-nav [class*=owl-] {
+    background:#7E0ABD !important;
+    color:#FFF !important;
+}
+.owl-carousel.with-carousel-dots .owl-nav [class*=owl-]:hover {
+    background:#6B08A1 !important;
 }

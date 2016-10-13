@@ -253,7 +253,7 @@
                     <div class="center">
                         <p>New Patient Hotline:</p>
                         <p class="phone-1 phone"><a href="tel:+18886826495">(888) 682&#8209;6495</a></p>
-                        <a class="button">Request Appointment</a>
+                        <a class="button" data-toggle="modal" data-target="#contact-modal">Request Appointment</a>
                         <p>Existing Patients:</p>
                         <p class="phone-2 phone"><a href="tel:+12106951200">(210) 695&#8209;1200</a></p>
                     </div>
@@ -412,7 +412,7 @@
                         <div class="col-md-5 col-md-pull-7 col-sm-12">
                             <h3>We look forward to</h3>
                             <p class="bottommargin">meeting you and your family. Our beautiful, inviting office is a refreshing place to relax while getting your dental work done. We&nbsp;welcome children too, so make an appointment&nbsp;today!</p>
-                            <a class="button">View Office Tour</a>
+                            <a class="button" data-target="#office-tour-modal" data-toggle="modal">View Office Tour</a>
                         </div>
                     </div>
                 </div>
@@ -756,6 +756,38 @@
                 <div class="modal-body team__modal-pic">
                     <div class="img-wrap"><img src="images/team/shelley-sproull.jpg" alt="Shelly Sproull"></div>
                     <p>Bio coming soon!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Office Tour Modal
+============================================= -->
+
+
+
+<div class="modal fade" id="office-tour-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-body">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;</button>
+                    <h4 class="modal-title">Office Tour</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div id="oc-slider" class="owl-carousel carousel-widget" data-margin="0" data-items="1" data-animate-in="zoomIn" data-speed="450" data-animate-out="fadeOut" data-loop="true">
+
+                        <img src="images/tour/1.jpg" alt="tour-slide-1">
+                        <img src="images/tour/2.jpg" alt="tour-slide-2">
+                        <img src="images/tour/3.jpg" alt="tour-slide-3">
+                        <img src="images/tour/4.jpg" alt="tour-slide-4">
+                        <img src="images/tour/5.jpg" alt="tour-slide-5">
+                        <img src="images/tour/6.jpg" alt="tour-slide-6">
+                        <img src="images/tour/7.jpg" alt="tour-slide-6">
+                    </div>
+
                 </div>
             </div>
         </div>
