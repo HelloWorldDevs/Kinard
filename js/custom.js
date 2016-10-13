@@ -41,5 +41,8 @@
             $('ul.mobile-primary-menu').toggleClass("show");
         }
     });
+    if ($(window).width() < 480) {
+        $('#patient-reviews').removeClass('parallax');
+    }
 
 })(jQuery);

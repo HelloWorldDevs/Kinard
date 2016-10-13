@@ -10,7 +10,7 @@ h2 {
 }
 .device-xxs section h2 {
     line-height:65px !important;
-    font-size:54px;
+    font-size:48px;
 }
 h3 {
     font-size:48px;
@@ -45,7 +45,6 @@ section p {
     padding-bottom:10px;
 }
 .device-xxs #logo img {
-    padding-bottom:41px;
     padding-top:1px;
 }
 #primary-menu ul li > a {
@@ -174,15 +173,11 @@ section p {
 .device-sm #slide-2 .slide-quote {
     font-size:20px;
 }
-.device-sm #slide-2 .slider-caption {
-    margin-top:-100px;
-}
+
 .device-md #slide-3 .slider-caption {
     padding-left:20px;
 }
-.device-sm #slide-3 .slider-caption {
-    margin-top:-120px;
-}
+
 .device-sm #slide-1 .slider-caption {
     margin-top:-100px;
     margin-left:-130px;
@@ -269,7 +264,6 @@ section p {
     margin-right:20px;
 }
 #side-panel > div.side-panel-wrap > div:nth-child(1) > a:hover {
-    text-decoration:underline;
     color:#FFF;
 }
 
@@ -1115,4 +1109,28 @@ h4.modal-title {
 }
 #side-panel .si-colored a:hover {
     text-decoration:none;
+}
+#contact .col-xs-6 {
+    text-align:center !important;
+}
+.device-xxs .logo {
+    margin:0;
+}
+.device-xxs #logo {
+    height:60px;
+}
+.device-xxs #logo img {
+    height:69px;
+}
+
+.widget a {
+    text-decoration:none !important;
+}
+a.widget-address:hover {
+    text-decoration:underline !important;
+}
+.service-modal .close {
+    top:-25px;
+    font-size:28px;
+    position:relative;
 }

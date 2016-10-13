@@ -350,6 +350,7 @@
 	#primary-menu {
 		display: block;
 		float: none;
+		background:#FFF;
 	}
 
 	#primary-menu-trigger {
