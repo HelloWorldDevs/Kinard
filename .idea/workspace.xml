@@ -27,18 +27,18 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13965">
+            <state relative-caret-position="-20475">
               <caret line="3473" column="1" selection-start-line="3473" selection-start-column="1" selection-end-line="3473" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-595">
-              <caret line="644" column="0" selection-start-line="644" selection-start-column="0" selection-end-line="644" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="669" column="44" selection-start-line="669" selection-start-column="44" selection-end-line="669" selection-end-column="44" />
               <folding>
                 <element signature="e#2281#2288#0" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -87,6 +87,7 @@
                 <element signature="e#35702#35709#0" expanded="true" />
                 <element signature="e#35721#35728#0" expanded="true" />
                 <element signature="e#35787#35794#0" expanded="true" />
+                <element signature="e#37660#37666#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="910" column="54" selection-start-line="910" selection-start-column="54" selection-end-line="910" selection-end-column="54" />
+            <state relative-caret-position="650">
+              <caret line="970" column="13" selection-start-line="970" selection-start-column="13" selection-end-line="970" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -122,8 +123,8 @@
       <list>
         <option value="$PROJECT_DIR$/images/angies-list.svg" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -214,6 +215,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logos" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,18 +339,18 @@
       <updated>1476241509244</updated>
       <workItem from="1476241510458" duration="21216000" />
       <workItem from="1476295253445" duration="22000" />
-      <workItem from="1476297978770" duration="14291000" />
+      <workItem from="1476297978770" duration="16419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35529000" />
+    <option name="totallyTimeSpent" value="37657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="230" y="103" width="1017" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24975418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24975418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -445,6 +464,7 @@
             <element signature="e#35702#35709#0" expanded="true" />
             <element signature="e#35721#35728#0" expanded="true" />
             <element signature="e#35787#35794#0" expanded="true" />
+            <element signature="e#37660#37666#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -525,6 +545,7 @@
             <element signature="e#35702#35709#0" expanded="true" />
             <element signature="e#35721#35728#0" expanded="true" />
             <element signature="e#35787#35794#0" expanded="true" />
+            <element signature="e#37660#37666#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -547,16 +568,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13965">
+        <state relative-caret-position="-20475">
           <caret line="3473" column="1" selection-start-line="3473" selection-start-column="1" selection-end-line="3473" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="970" column="13" selection-start-line="970" selection-start-column="13" selection-end-line="970" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-595">
-          <caret line="644" column="0" selection-start-line="644" selection-start-column="0" selection-end-line="644" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="669" column="44" selection-start-line="669" selection-start-column="44" selection-end-line="669" selection-end-column="44" />
           <folding>
             <element signature="e#2281#2288#0" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -605,15 +634,8 @@
             <element signature="e#35702#35709#0" expanded="true" />
             <element signature="e#35721#35728#0" expanded="true" />
             <element signature="e#35787#35794#0" expanded="true" />
+            <element signature="e#37660#37666#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="910" column="54" selection-start-line="910" selection-start-column="54" selection-end-line="910" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>

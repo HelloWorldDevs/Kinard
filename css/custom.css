@@ -252,7 +252,7 @@ section p {
 .side-panel-wrap hr {
     color:#979797;
 }
-.side-panel-wrap .si-gplus, .side-panel-wrap .si-facebook, .side-panel-wrap .si-yelp {
+.si-gplus, .si-facebook, .si-yelp {
     width:32px;
     height:32px;
 }
@@ -261,11 +261,11 @@ section p {
     top:5px;
     position:relative;
 }
-.side-panel-wrap .icon-facebook:before, .side-panel-wrap .icon-gplus:before, .side-panel-wrap .icon-yelp:before {
+.icon-facebook:before, .icon-gplus:before, .icon-yelp:before {
     position:relative;
     top:-5px;
 }
-.side-panel-wrap .si-colored {
+.si-colored {
     position:relative;
     top:10px;
 }
@@ -909,4 +909,65 @@ sup {
 }
 .device-xs #contact, .device-xxs {
     background:url('../images/fabric-plaid-bkgd.png');
+}
+
+/** LOGOS SECTION **/
+.logo {
+    max-width:166px;
+    margin:0px 15px;
+}
+
+/** FOOTER **/
+
+#copyrights {
+    background:#585A56;
+    padding:5px;
+}
+
+#copyrights p > a {
+    color:#FFF;
+}
+#copyrights p {
+    font-size:14px;
+    color:#FFF !important;
+    font-weight:400;
+    margin-bottom:0;
+    position:relative;
+    transform:translateY(50%);
+}
+#copyrights a:hover {
+    text-decoration:none;
+}
+#copyrights .row {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.device-xs #copyrights .row, .device-xxs #copyrights .row {
+    display:inherit;
+}
+#copyrights .widget {
+    margin-top:0;
+    display:flex;
+    align-items: baseline;
+}
+#copyrights div.col-md-6 {
+    text-align:center;
+}
+#copyrights .si-angie {
+    top:-3px;
+    position:relative;
+    margin-right:15px;
+}
+#copyrights .si-colored {
+    position:relative;
+    top:5px;
+    margin-right:15px;
+}
+#copyrights p > a:hover {
+    text-decoration:underline;
+}
+.device-xs #copyrights .widget, .device-xxs #copyrights .widget {
+    width:197px;
+    margin:0 auto;
 }
