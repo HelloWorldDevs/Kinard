@@ -43,6 +43,13 @@
     });
     if ($(window).width() < 480) {
         $('#patient-reviews').removeClass('parallax');
-    }
+    };
+    $(window).resize(function() {
+        if ($(window).width() < 480) {
+            $('#patient-reviews').removeClass('parallax');
+        } else {
+            $('#patient-reviews').addClass('parallax');
+        };
+    });
 
 })(jQuery);
