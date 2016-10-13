@@ -114,6 +114,10 @@ section p {
 #slide-1 {
     background-position-y:0;
 }
+.swiper_wrapper .swiper-slide {
+    background-position:100% center;
+}
+
 
 #slide-1 img {
     width:22.7%;
@@ -179,7 +183,6 @@ section p {
 }
 
 .device-sm #slide-1 .slider-caption {
-    margin-top:-100px;
     margin-left:-130px;
 }
 .device-sm #slide-1 img {

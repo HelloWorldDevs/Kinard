@@ -51,5 +51,9 @@
             $('#patient-reviews').addClass('parallax');
         };
     });
-
+    $('.delay-btn').click(function() {
+        setTimeout(function() {
+            $('.hidden-div').removeClass('hidden');
+        }, 550);
+    });
 })(jQuery);
