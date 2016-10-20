@@ -760,6 +760,10 @@ span.specials-save {
 }
 .device-xs #services h4, .device-xxs #services h4 {
     margin-bottom:0;
+    line-height:30px;
+}
+.device-xxs .service-card {
+    margin-bottom:45px;
 }
 
 /** INVISALIGN **/
@@ -1181,5 +1185,8 @@ a.widget-address:hover {
         padding-left:45px !important;
         padding-right:45px !important;
     }
+}
+.device-xxs {
+
 }
 
