@@ -1185,4 +1185,6 @@ a.widget-address:hover {
     border-top:none;
     border-bottom:5px solid #FFF;
 }
-
+.device-xs .bf-dv, .device-xxs .bf-dv {
+    max-height:400px;
+}
