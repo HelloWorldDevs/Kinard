@@ -1133,8 +1133,8 @@ a.widget-address:hover {
     text-decoration:underline !important;
 }
 .service-modal .close {
-    top:-25px;
-    font-size:28px;
+    top:-30px;
+    font-size:36px;
     position:relative;
 }
 @media (max-width:400px) {
