@@ -1187,11 +1187,11 @@ a.widget-address:hover {
     }
 }
 #contact {
-    height:880px !important;
-    border-top:5px solid #FFF !important;
+    height:880px;
+    border-top:5px solid #FFF;
 }
 .device-xs #contact, .device-xxs #contact {
-    border-top:none !important;
-    border-bottom:5px solid #FFF !important;
+    border-top:none;
+    border-bottom:5px solid #FFF;
 }
 

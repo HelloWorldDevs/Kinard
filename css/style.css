@@ -317,7 +317,7 @@ span.middot {
 
 .content-wrap .footer-stick { margin-bottom: -80px !important; }
 
-.noborder { border: none !important; }
+.noborder { border: none; }
 
 .noleftborder { border-left: none !important; }
 
