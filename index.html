@@ -1018,7 +1018,8 @@
         map = new google.maps.Map(document.getElementById('google-map'), {
             center: myLatLng,
             zoom: 17,
-            scrollwheel: false
+            scrollwheel: false,
+            draggable: false
         });
         var marker = new google.maps.Marker({
             position: myLatLng,
