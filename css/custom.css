@@ -952,10 +952,9 @@ sup {
 .device-xs #copyrights .row, .device-xxs #copyrights .row {
     display:inherit;
 }
-#copyrights .widget {
-    margin-top:0;
-    display:flex;
-    align-items: baseline;
+.device-xxs .widget-footer {
+    position:relative;
+    left:5px;
 }
 #copyrights div.col-md-6 {
     text-align:center;
@@ -969,7 +968,7 @@ sup {
 #copyrights p > a:hover {
     text-decoration:underline;
 }
-.device-xs #copyrights .widget, .device-xxs #copyrights .widget {
+.device-xs #copyrights .widget-footer, .device-xxs #copyrights .widget-footer {
     width:197px;
     margin:0 auto;
 }
