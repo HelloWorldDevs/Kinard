@@ -1186,7 +1186,12 @@ a.widget-address:hover {
         padding-right:45px !important;
     }
 }
-.device-xxs {
-
+#contact {
+    height:880px !important;
+    border-top:5px solid #FFF !important;
+}
+.device-xs #contact, .device-xxs #contact {
+    border-top:none !important;
+    border-bottom:5px solid #FFF !important;
 }
 
