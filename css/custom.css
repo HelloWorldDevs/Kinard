@@ -247,16 +247,12 @@ section p {
 .side-panel-wrap hr {
     color:#979797;
 }
-.si-gplus, .si-facebook, .si-yelp {
+.si-gplus, .si-facebook, .si-yelp, .si-instagram {
     width:32px;
     height:32px;
 }
-.si-angie {
-    border:none;
-    top:5px;
-    position:relative;
-}
-.icon-facebook:before, .icon-gplus:before, .icon-yelp:before {
+
+.icon-facebook:before, .icon-gplus:before, .icon-yelp:before, .icon-instagram:before {
     position:relative;
     top:-5px;
 }
@@ -964,11 +960,7 @@ sup {
 #copyrights div.col-md-6 {
     text-align:center;
 }
-#copyrights .si-angie {
-    top:-3px;
-    position:relative;
-    margin-right:15px;
-}
+
 #copyrights .si-colored {
     position:relative;
     top:5px;
