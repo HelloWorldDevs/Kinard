@@ -183,14 +183,16 @@ section p {
 }
 
 .device-sm #slide-1 .slider-caption {
-    margin-left:-130px;
+    margin-left:-170px;
 }
+
 .device-sm #slide-1 img {
     width:15%;
     height:15%;
 }
 .device-md #slide-1 .slider-caption {
-    margin-left:-85px;
+    margin-left:-95px;
+    margin-top:-15px;
 }
 .device-sm #slide-3 h1, .device-sm #slide-1 h1 {
     font-size:48px;
@@ -1159,3 +1161,25 @@ a.widget-address:hover {
 .device-xxs .service-modal h4 {
     font-size: 24px;
 }
+
+/** EDITS **/
+.device-md .swiper_wrapper .swiper-slide {
+    background-size:cover;
+}
+.device-md #slider {
+    min-height:476px;
+}
+@media (max-width:900px) {
+    .device-sm #slide-1 .slider-caption h1 {
+        font-size:40px;
+        margin-bottom:0;
+    }
+    .device-sm .smile-text {
+        font-size:80px;
+    }
+    #slide-1 a {
+        padding-left:45px !important;
+        padding-right:45px !important;
+    }
+}
+
