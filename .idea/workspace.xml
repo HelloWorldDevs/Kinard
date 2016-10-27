@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fd7282d-bfb0-49b4-a7be-24c36fa50733" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +26,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="1176" column="5" selection-start-line="1176" selection-start-column="5" selection-end-line="1176" selection-end-column="5" />
+            <state relative-caret-position="395">
+              <caret line="1205" column="50" selection-start-line="1205" selection-start-column="50" selection-end-line="1205" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -291,12 +288,12 @@
       <workItem from="1476919550769" duration="1064000" />
       <workItem from="1476991381672" duration="5901000" />
       <workItem from="1476998630390" duration="727000" />
-      <workItem from="1477598245543" duration="2735000" />
+      <workItem from="1477598245543" duration="2943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62643000" />
+    <option name="totallyTimeSpent" value="62851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="256" y="186" width="1111" height="873" extended-state="0" />
@@ -881,8 +878,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="1176" column="5" selection-start-line="1176" selection-start-column="5" selection-end-line="1176" selection-end-column="5" />
+        <state relative-caret-position="395">
+          <caret line="1205" column="50" selection-start-line="1205" selection-start-column="50" selection-end-line="1205" selection-end-column="50" />
           <folding />
         </state>
       </provider>

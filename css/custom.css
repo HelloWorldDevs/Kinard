@@ -1191,6 +1191,9 @@ a.widget-address:hover {
 .device-xs .bf-dv, .device-xxs .bf-dv {
     max-height:400px;
 }
+.device-sm .bf-dv, .device-md .bf-dv, .device-lg .bf-dv {
+    max-height:600px;
+}
 .r-more {
     color: #1AA1B2;
     margin-top:-20px;
@@ -1200,10 +1203,10 @@ a.widget-address:hover {
 #meet-the-doctors > div > div.row.center > div:hover > div > div.r-more {
     text-decoration:underline;
 }
-#patient-reviews #bfpublish {
+.device-xs #patient-reviews #bfpublish, .device-xxs #patient-reviews #bfpublish {
     max-height:450px !important;
 }
-#patient-reviews iframe {
+.device-xs #patient-reviews iframe, .device-xxs #patient-reviews iframe {
     max-height:450px !important;
 }
 .device-xxs #logos > div > div > div:nth-child(2) {
