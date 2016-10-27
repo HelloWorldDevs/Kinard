@@ -1188,3 +1188,12 @@ a.widget-address:hover {
 .device-xs .bf-dv, .device-xxs .bf-dv {
     max-height:400px;
 }
+.r-more {
+    color: #1AA1B2;
+    margin-top:-20px;
+    font-size:18px;
+}
+
+#meet-the-doctors > div > div.row.center > div:hover > div > div.r-more {
+    text-decoration:underline;
+}
